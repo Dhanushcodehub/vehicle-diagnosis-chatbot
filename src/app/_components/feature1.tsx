@@ -16,17 +16,17 @@ interface Cta10Props {
 }
 
 const Cta10 = ({
-  heading = "Call to Action",
-  description = "Build faster with our collection of pre-built blocks. Speed up your development and ship features in record time.",
+  heading = "Find Near By Mechanics & Roadside Assistance Fast",
+  description = "Get back on the road quickly with our AI-powered vehicle breakdown assistant. Locate trusted mechanics and roadside help in your area instantly.",
   buttons = {
     primary: {
-      text: "Buy Now",
+      text: "Find now",
       url: "https://www.shadcnblocks.com",
     },
   },
 }: Cta10Props) => {
   return (
-    <section className="py-32">
+    <section className="py-10">
       <div className="container">
         <div className="bg-accent flex w-full flex-col gap-16 overflow-hidden rounded-lg p-8 md:rounded-xl lg:flex-row lg:items-center lg:p-12">
           <div className="flex-1">

@@ -1,6 +1,9 @@
 // app/dashboard/page.tsx
 
 import { Cta10 } from "../_components/feature1";
+import Features from "../_components/feature2";
+import { Footer2 } from "../_components/Footer";
+
 import Hero from "../_components/hero";
 import { Navbar1 } from "../_components/Navbar";
 import ChatbotSimple from "./ChatbotSimple";
@@ -17,7 +20,9 @@ export default function DashboardPage() {
       <section className="mr-10 ml-10">
         <Hero></Hero>
         <Cta10/>
+        <Features/>
       </section>
+      <Footer2/>
       
     </main>
   );
